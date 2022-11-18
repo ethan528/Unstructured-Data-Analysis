@@ -2,12 +2,6 @@
 
 ## 가상환경 설정
 
-conda create -n Analyzing_Unstructured_Data python =
-y
-conda activate Analyzing_Unstructured_Data
-
-conda install jupyter
-
-conda install ipykernel
-
-conda install -n Analyzing_Unstructured_Data ipykernel --update-deps --force-reinstall
+conda create --name Analyzing_Unstructured_Data --file packages.txt
+pip install JPype1-1.4.0-cp38-cp38-win_amd64.whl
+pip install konlpy
