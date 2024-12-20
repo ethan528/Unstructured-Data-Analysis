@@ -1,4 +1,4 @@
-# Chat Demo
+# flutter_chat_demo
 
 ## Description
 * A chat app made by Flutter and Firebase.
